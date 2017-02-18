@@ -5,7 +5,7 @@ node('php'){
     }
     
     stage('Fetch') {
-        git 'https://github.com/jeffersonsouza/example-todo-api.git'
+        git 'https://github.com/lucascoala/example-todo-api.git'
     }
     
     stage('Build'){
